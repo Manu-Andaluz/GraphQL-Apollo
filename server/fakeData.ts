@@ -1,4 +1,4 @@
-const userList = [
+export const userList = [
     {
         id: "63bb17e6954feecad4268b59",
         name: "Manu",
@@ -69,7 +69,7 @@ const userList = [
     }
 ]
 
-movieList = [
+export const movieList = [
     {
         id: "63bb17e1",
         name: "Avengers: Endgame",
@@ -90,5 +90,3 @@ movieList = [
     },
 ]
 
-
-module.exports = { userList, movieList }
